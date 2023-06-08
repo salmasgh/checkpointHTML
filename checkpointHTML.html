@@ -2,29 +2,38 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://icon-library.com/images/icon-website-png/icon-website-png-0.jpg"
+    />
     <title>checkpoint html</title>
   </head>
   <body>
     <header>
       <!--navbar-->
       <nav>
+        <img
+          src="https://icon-library.com/images/icon-website-png/icon-website-png-0.jpg"
+          alt="logo"
+        />
         <h1>Welcome to the website of Freelance Websites !</h1>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <!--home section-->
-      <section>
+      <section id="home">
         <img
           src="https://th.bing.com/th?id=OIP.WnK1vJs2BjGqyaFWdwdwiwHaHa&w=250&h=250&c=8&rs=1&qlt=30&o=6&dpr=1.3&pid=3.1&rm=2"
           width="100"
           height="100"
+          alt="img"
         />
         <h2>HOME</h2>
 
@@ -42,11 +51,12 @@
       <br />
       <br />
       <!--about section-->
-      <section>
+      <section id="about">
         <img
           src="https://th.bing.com/th/id/OIP.i_Vmy-a1TQAnK2JNI_bcdQHaHa?pid=ImgDet&rs=1"
           width="90"
           height="90"
+          alt="img"
         />
         <h2>ABOUT US</h2>
         <h3>Our Story</h3>
@@ -70,6 +80,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
+          alt="youtube.com"
         ></iframe>
         <p>
           We take pride in our track record of successful projects and satisfied
@@ -81,11 +92,12 @@
       <br />
       <br />
       <!--Work section-->
-      <section>
+      <section id="work">
         <img
           src="https://th.bing.com/th/id/R.cbc9296da3d5e740ed3fc86fe3170fdc?rik=qajyuaVE5kpqlw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_284333.png&ehk=FrmTTr9jjciST%2b5DTa%2bdGMa84cHuO4l%2fTWDHrU4eyN0%3d&risl=&pid=ImgRaw&r=0"
           width="90"
           height="90"
+          alt="img"
         />
         <h2>OUR WORK</h2>
         <article>
@@ -114,11 +126,12 @@
       <br />
       <br />
       <!--resume-->
-      <section>
+      <section id="resume">
         <img
           src="https://th.bing.com/th/id/OIP.WVVuzO3mc47ClBN0xkJN5AHaHa?pid=ImgDet&rs=1"
           width="90"
           height="90"
+          alt="img"
         />
         <h2>RESUME</h2>
         <form>
@@ -129,7 +142,7 @@
           <input type="text" placeholder="last name" />
           <br />
           <label>How did you knew about us ?</label>
-          <textarea name="message" cols="30" rows="5"></textarea>
+          <textarea name="message" cols="30" rows="1"></textarea>
           <br />
           <label>What's the service you would like ?</label>
           <select name="" id="">
@@ -144,12 +157,13 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="contact">
       <!--contact section-->
       <img
         src="https://freepngimg.com/download/email_marketing/62507-icons-marketing-webmail-computer-email-icon.png"
         width="90"
         height="90"
+        alt="img"
       />
       <h2>OUR CONTACT INFO</h2>
       <table border="1">
@@ -167,5 +181,6 @@
         </tr>
       </table>
     </footer>
+    <a href="#TopOfThePage">let's go back.</a>
   </body>
 </html>
